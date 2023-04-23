@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T07:14:57.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zkw2m8bHWPFKhR3dnfal" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T07:16:18.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="XZRtk9IXNpyDHmM1dvxn" version="21.2.1" type="github">
   <diagram name="第 1 页" id="nnTXE8aStebGgGXZ9mRK">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
         <mxCell id="JSkaB0sRVsXYAGX4xq3C-50" value="前端页面" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="510" y="70" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JSkaB0sRVsXYAGX4xq3C-51" value="HTTP 统一接口" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JSkaB0sRVsXYAGX4xq3C-21">
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-51" value="HTTP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JSkaB0sRVsXYAGX4xq3C-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="586.5526315789475" y="270" as="sourcePoint" />
             <mxPoint x="586.5526315789475" y="160" as="targetPoint" />
