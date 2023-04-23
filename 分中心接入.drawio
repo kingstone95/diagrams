@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T06:30:32.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="0RegBkanV7b3LbFT_ehW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T07:14:00.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HVDwJQiWhaIrbLfuplIy" version="21.2.1" type="github">
   <diagram name="第 1 页" id="nnTXE8aStebGgGXZ9mRK">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="640" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="417" width="630" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-24" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="630" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="75" y="70" width="405" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-8" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="75" y="210" width="405" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-9" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-10" value="Job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-12" value="Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-13" value="API-Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-14" value="Admission Webhook" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="230" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-16" value="Job Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-17" value="Bucket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-18" value="Volumn Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-19" value="Job Adapter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-20" value="Volumn Adapter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-21" value="File Adapter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-22" value="Minitor Adapter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="475" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-23" value="Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="475" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-33" value="分计算中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-40" value="Job / Volumn&lt;br&gt;CRD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-45" value="GRPC" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JSkaB0sRVsXYAGX4xq3C-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189.5" y="380" as="sourcePoint" />
+            <mxPoint x="190" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-46" value="GRPC" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="430" as="sourcePoint" />
+            <mxPoint x="372" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-47" value="HTTP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0001" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="600" as="sourcePoint" />
+            <mxPoint x="378.5" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-49" value="Dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-50" value="前端页面" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-51" value="HTTP 统一接口" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JSkaB0sRVsXYAGX4xq3C-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586.5526315789475" y="270" as="sourcePoint" />
+            <mxPoint x="586.5526315789475" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSkaB0sRVsXYAGX4xq3C-52" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="475" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
