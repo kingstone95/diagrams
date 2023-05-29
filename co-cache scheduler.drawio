@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T08:47:18.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_rvkQIGm1VRk6qXeMV3B" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T09:05:14.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gjUZmtTN-xcMd3kVp8l8" version="21.2.3" type="github">
   <diagram name="第 1 页" id="z0oG-mKyvX9SuO6VliDq">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
         <mxCell id="Hmux4KGo7t67pJO13rqE-38" value="Co-cache&lt;br&gt;Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="200" width="147.14" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-48" value="Cache&lt;br&gt;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="280" y="1200" width="100" height="300" as="geometry" />
+        <mxCell id="Hmux4KGo7t67pJO13rqE-48" value="Cache/NodeCache&lt;br&gt;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="1200" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-48">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
@@ -40,7 +40,7 @@
         <mxCell id="Hmux4KGo7t67pJO13rqE-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-48">
           <mxGeometry x="50" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-85" value="Reconcile&lt;br&gt;为Cache 绑定&lt;br&gt;合适的节点" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-84" parent="Hmux4KGo7t67pJO13rqE-48">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-85" value="Reconcile&lt;br&gt;为Cache 选择合适的节点，&lt;br&gt;并生成NodeCache CR" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-84" parent="Hmux4KGo7t67pJO13rqE-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="100" as="sourcePoint" />
             <Array as="points">
@@ -49,19 +49,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-49" value="Cache&lt;br&gt;Engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="440" y="1200" width="100" height="300" as="geometry" />
+          <mxGeometry x="440" y="1200" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-49">
-          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-50" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="1200" width="100" height="300" as="geometry" />
+        <mxCell id="Hmux4KGo7t67pJO13rqE-50" value="co-cache&lt;br&gt;Scheduler Plugin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="1200" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-50">
+          <mxGeometry x="45" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-123" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-50">
+          <mxGeometry x="50" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-124" value="根据Pod 声明的csi中的Cache Name，&lt;br&gt;选择缓存分布的节点，绑定到Pod 上" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-123" parent="Hmux4KGo7t67pJO13rqE-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-52" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1200" width="20" height="300" as="geometry" />
+          <mxGeometry x="30" y="1200" width="20" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-53" value="kube&lt;br&gt;apiserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="120" y="1200" width="100" height="300" as="geometry" />
+          <mxGeometry x="120" y="1200" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-55" value="创建Cache CR" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="Hmux4KGo7t67pJO13rqE-53">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -75,13 +89,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-83" value="更新Cache 状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Hmux4KGo7t67pJO13rqE-81" parent="1">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-83" value="写入NodeCache CR" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Hmux4KGo7t67pJO13rqE-81" parent="1">
           <mxGeometry x="0.0065" relative="1" as="geometry">
             <mxPoint x="170" y="1365" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-87" value="Cache 事件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-86" parent="1">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-87" value="NodeCache 事件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-86" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="171" y="1400" as="sourcePoint" />
           </mxGeometry>
@@ -207,6 +221,53 @@
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-17" value="Cache&lt;br&gt;CSI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-118" value="创建Job/Pod" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="Hmux4KGo7t67pJO13rqE-53">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="1560" as="sourcePoint" />
+            <mxPoint x="120" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-121" value="监听Pod 事件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-120" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-122" value="更新Pod NodeName" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Hmux4KGo7t67pJO13rqE-120" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-137" value="kubelet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="760" y="1200" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-137">
+          <mxGeometry x="45" y="520" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-138" value="Cache&lt;br&gt;CSI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="920" y="1200" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-138">
+          <mxGeometry x="46" y="574" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-145" value="根据Cache Name 为容器&lt;br&gt;挂载主机路径" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-144" parent="Hmux4KGo7t67pJO13rqE-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="554" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-140" value="监听该节点Pod" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-139" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-146" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="Hmux4KGo7t67pJO13rqE-138">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="810" y="1740" as="sourcePoint" />
+            <mxPoint x="890" y="1740" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
