@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T09:05:46.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-N1UFTnSj5YTZGpAStMk" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T09:50:11.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lqiKjPjAg6Jb7oox1c7R" version="21.2.3" type="github">
   <diagram name="第 1 页" id="z0oG-mKyvX9SuO6VliDq">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-49" value="Cache&lt;br&gt;Engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-49" value="Cache&lt;br&gt;Agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="440" y="1200" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-49">
@@ -239,7 +239,7 @@
         <mxCell id="Hmux4KGo7t67pJO13rqE-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-137">
           <mxGeometry x="45" y="520" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-138" value="Cache&lt;br&gt;CSI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-138" value="Cache&lt;br&gt;CSI Driver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="920" y="1200" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Hmux4KGo7t67pJO13rqE-138">
@@ -263,6 +263,157 @@
             <mxPoint x="810" y="1740" as="sourcePoint" />
             <mxPoint x="890" y="1740" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-149" target="Hmux4KGo7t67pJO13rqE-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-149" value="在所述容器平台k8s 中创建一个CRD资源类型Cache， 并部署Controller、Scheduler Plugin、Agent、CSI 驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-154" target="Hmux4KGo7t67pJO13rqE-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-154" value="在所述容器平台k8s 中创建Cache 资源，编写其中自定义字段信息， 包括远端数据集的存储地址访问信息、&lt;br&gt;副本数等属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1300" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-156" target="Hmux4KGo7t67pJO13rqE-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-156" value="基于所述容器平台k8s 中的watch机制， 所述Controller 监听到Cache 资源发生变化时，根据自定义资源对象中的期望状态与实际状态进行调谐， 完成相应的处理逻辑， 为Cache 选择节点并生成NodeCache 自定义资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1400" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-157" target="Hmux4KGo7t67pJO13rqE-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-157" value="在NodeCache相应节点上的所述Agent监听到Cache 需要加载， 将Cache 的访问信息写入所述Engine 需要加载的缓存列表配置中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1500" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-158" target="Hmux4KGo7t67pJO13rqE-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-158" value="所述Engine 会根据配置创建一个主机路径，并使用相应的存储介质类型，挂载底层的远程存储， 实现对远端数据集的缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1600" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Hmux4KGo7t67pJO13rqE-159" target="Hmux4KGo7t67pJO13rqE-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-159" value="在所述容器平台k8s 中创建一个使用cache csi 的 Pod 或创建Job等其他类型由k8s控制器产生Pod，k8s 调度器开启调度流程， 所述co-cache 插件会根据csi中声明的cacheName 选择缓存分布的节点，并最终绑定为Pod 绑定该节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1700" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-160" value="在所述容器平台k8s 中, kubelet 监听到上述绑定到本节点的Pod, 调用Pod 声明的CSI 驱动，  根据Cache Name 为容器挂载上述Cache的主机路径" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1800" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-183" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-181" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-183">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-182" value="S201" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-183">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-185" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-186" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-185">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-187" value="S202" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-185">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-188" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-189" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-188">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-190" value="S203" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-188">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-191" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-192" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-191">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-193" value="S204" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-191">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-194" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1585" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-195" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-194">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-196" value="S205" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-194">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-197" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1690" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-198" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-197">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-199" value="S206" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-197">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-200" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1680" y="1790" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-201" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="Hmux4KGo7t67pJO13rqE-200">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="50" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hmux4KGo7t67pJO13rqE-202" value="S207" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hmux4KGo7t67pJO13rqE-200">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
