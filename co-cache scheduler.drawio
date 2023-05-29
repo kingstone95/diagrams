@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T09:05:14.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gjUZmtTN-xcMd3kVp8l8" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T09:05:46.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-N1UFTnSj5YTZGpAStMk" version="21.2.3" type="github">
   <diagram name="第 1 页" id="z0oG-mKyvX9SuO6VliDq">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,14 +95,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-87" value="NodeCache 事件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-86" parent="1">
+        <mxCell id="Hmux4KGo7t67pJO13rqE-87" value="鉴定该节点的NodeCache 事件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Hmux4KGo7t67pJO13rqE-86" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="171" y="1400" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hmux4KGo7t67pJO13rqE-88" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Hmux4KGo7t67pJO13rqE-86" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="171" y="1475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hmux4KGo7t67pJO13rqE-90" value="" style="group" vertex="1" connectable="0" parent="1">
